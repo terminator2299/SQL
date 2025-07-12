@@ -51,7 +51,7 @@ ORDER BY country_name, rank_num;
 -- Query 2: Find 2nd Oldest Person
 
 -- Create the Person table
-CREATE TEMP TABLE Person (
+CREATE TABLE Person (
     person_id INT,
     name VARCHAR(10),
     age_gap INT
